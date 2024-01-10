@@ -15,6 +15,12 @@ const questions = [
       name: 'description',
       message: 'Enter a description of your project:',
     },
+    {
+        type: 'list',
+        name: 'license',
+        message: 'Choose a license for your project:',
+        choices: ['MIT', 'Apache 2.0', 'GNU GPLv3', 'ISC', 'None'],
+      },
     
   ];
   
